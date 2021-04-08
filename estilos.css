@@ -1,0 +1,72 @@
+
+
+.clearFix{
+    clear:both;
+}
+
+header{
+    margin: 10px;
+    padding: 10px;
+}
+
+/* .flotanteIzquierda{
+    float: left;
+    margin: 20px;
+    
+}        */
+
+button{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    margin: 10px;
+}
+
+.borrar{
+    width: 25%;
+    height: 25%;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    margin: 10px;
+    margin-left: 50%;
+    
+}
+
+@keyframes borrar{
+    0% {
+        opacity: 1;
+        height: 100%;
+        line-height: 100%;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    75% {
+        opacity: 0;
+        height: 100%;
+        line-height: 100%;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    100% {
+        opacity: 0;
+        height: 0px;
+        line-height: 0px;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+.td{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color: gray;
+    padding: 20px;
+    margin: 20px;
+    animation-name: borrar;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    
+}
